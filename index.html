@@ -21,16 +21,12 @@
 
   <!-- SVG symbols -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 21.5A2.5 2.5 0 0 1 6.5 19H20"/><path d="M9 8h7"/></symbol>
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
     <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10Z"/></symbol>
-    <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M12 21v-8"/><path d="M12 13c0-4 3-6.5 8-6.5 0 4-3 6.5-8 6.5Z"/><path d="M12 15C12 11.5 9.5 9 4 9c0 3.5 2.5 6 8 6Z"/></symbol>
     <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4L12 3Z"/><path d="M19 17l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7.7-2Z"/></symbol>
     <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 14.2A5 5 0 0 1 21 19"/></symbol>
     <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V6L12 3Z"/><path d="M9 12l2.2 2.2L15.5 10"/></symbol>
-    <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1Z"/><path d="M14.5 6.5l3 3"/></symbol>
-    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5L2 9Z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5"/></symbol>
   </svg>
 
   <header class="site-header" id="top">
@@ -68,10 +64,7 @@
           </div>
         </div>
         <div class="hero-visual">
-          <div class="arch photo" style="--img:url('assets/images/hero.jpg')" role="img" aria-label="Illustrative placeholder: a welcoming classroom scene">
-            <svg class="ph-icon" aria-hidden="true"><use href="#i-book"/></svg>
-            <span class="ph-tag">Illustrative placeholder</span>
-          </div>
+          <div class="arch photo img-hero" role="img" aria-label="A welcoming school learning environment"></div>
           <div class="float-card">
             <svg aria-hidden="true"><use href="#i-pin"/></svg>
             <div><strong>Rumudara, Port Harcourt</strong><span>64 Egbelu Road, Rivers State</span></div>
@@ -85,10 +78,7 @@
     <section class="section" id="about">
       <div class="container split">
         <div class="photo-frame reveal">
-          <div class="photo tall" style="--img:url('assets/images/about.jpg')" role="img" aria-label="Illustrative placeholder: teacher and students in a classroom">
-            <svg class="ph-icon" aria-hidden="true"><use href="#i-people"/></svg>
-            <span class="ph-tag">Illustrative placeholder</span>
-          </div>
+          <div class="photo tall img-about" role="img" aria-label="Teacher and students in a classroom"></div>
         </div>
         <div class="reveal">
           <p class="eyebrow dark">About Our School</p>
@@ -108,7 +98,7 @@
         </div>
         <div class="cards">
           <article class="card reveal">
-            <div class="photo card-img g1" style="--img:url('assets/images/early-years.jpg')" role="img" aria-label="Early years illustration"><svg class="ph-icon" aria-hidden="true"><use href="#i-sprout"/></svg></div>
+            <div class="photo card-img g1 img-early" role="img" aria-label="Young children learning through play"></div>
             <div class="card-body">
               <h3>Early Years Education</h3>
               <p>Foundational learning, creativity, social development, and discovery.</p>
@@ -116,7 +106,7 @@
             </div>
           </article>
           <article class="card reveal">
-            <div class="photo card-img g2" style="--img:url('assets/images/primary.jpg')" role="img" aria-label="Primary education illustration"><svg class="ph-icon" aria-hidden="true"><use href="#i-pencil"/></svg></div>
+            <div class="photo card-img g2 img-primary" role="img" aria-label="Primary school pupils learning"></div>
             <div class="card-body">
               <h3>Primary Education</h3>
               <p>Literacy, numeracy, critical thinking, and confidence.</p>
@@ -124,7 +114,7 @@
             </div>
           </article>
           <article class="card reveal">
-            <div class="photo card-img g3" style="--img:url('assets/images/secondary.jpg')" role="img" aria-label="Secondary education illustration"><svg class="ph-icon" aria-hidden="true"><use href="#i-cap"/></svg></div>
+            <div class="photo card-img g3 img-secondary" role="img" aria-label="Secondary school students learning"></div>
             <div class="card-body">
               <h3>Secondary Education</h3>
               <p>Subject knowledge, independent thinking, and preparation for future academic opportunities.</p>
@@ -156,14 +146,14 @@
       <div class="container">
         <div class="section-head reveal light">
           <h2>A Glimpse Into School Life</h2>
-          <p>Illustrative placeholders for the concept. Real photographs of the school will replace them once supplied.</p>
+          <p>Illustrative images for the concept. They do not show the school's actual premises or students, and will be replaced with the school's own photographs.</p>
         </div>
         <div class="gallery">
-          <div class="photo tile t-wide reveal" style="--img:url('assets/images/life-1.jpg')" role="img" aria-label="Classroom learning placeholder"><span class="cap">Classroom learning</span></div>
-          <div class="photo tile reveal g2" style="--img:url('assets/images/life-2.jpg')" role="img" aria-label="Teacher and student interaction placeholder"><span class="cap">Teacher &amp; student interaction</span></div>
-          <div class="photo tile reveal g3" style="--img:url('assets/images/life-3.jpg')" role="img" aria-label="Reading and learning placeholder"><span class="cap">Reading &amp; learning</span></div>
-          <div class="photo tile reveal g1" style="--img:url('assets/images/life-4.jpg')" role="img" aria-label="Play and recreation placeholder"><span class="cap">Play &amp; recreation</span></div>
-          <div class="photo tile t-wide reveal" style="--img:url('assets/images/life-5.jpg')" role="img" aria-label="School events and collaboration placeholder"><span class="cap">Events &amp; collaboration</span></div>
+          <div class="photo tile t-wide reveal img-life1" role="img" aria-label="Classroom learning (illustrative)"><span class="cap">Classroom learning</span></div>
+          <div class="photo tile reveal g2 img-life2" role="img" aria-label="Teacher and student interaction (illustrative)"><span class="cap">Teacher &amp; student interaction</span></div>
+          <div class="photo tile reveal g3 img-life3" role="img" aria-label="Reading and learning (illustrative)"><span class="cap">Reading &amp; learning</span></div>
+          <div class="photo tile reveal g1 img-life4" role="img" aria-label="Play and recreation (illustrative)"><span class="cap">Play &amp; recreation</span></div>
+          <div class="photo tile t-wide reveal img-life5" role="img" aria-label="Student collaboration (illustrative)"><span class="cap">Events &amp; collaboration</span></div>
         </div>
         <div class="center reveal"><a href="#contact" class="btn btn-gold">Explore School Life</a></div>
       </div>
